@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+body {
+  font-family: IranSans;
+  color: white;
+  background-color: #f0f0f1;
+}
+@font-face {
+  font-family: IranSans;
+  src: url(./font/IRANSansWeb-Light.ttf);
+  src: url(./font/IRANSansWeb-Light.woff);
+  src: url(./font/IRANSansWeb-Light.woff2);
+}
+.swiper {
+  width: 900px;
+  height: auto;
+  border: 10px #545454;
+}
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.swiper-1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.swiper-2 {
+  display: flex;
+  justify-content: left;
+}
+.card-takhfif {
+  height: auto;
+  width: 470px;
+}
+/* lottery-section */
+.img-index{
+  animation: A 3s forwards;
+  transform: translate(-600px);
+}
+@keyframes A{
+   100%{
+    transform: translate(0px);
+   }
+}
+.lottery-section {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  .img-index {
+    margin-right: 100px;
+  }
+}
+section h2 {
+  height: 50px;
+  color: red;
+  font-size: 1.5rem;
+  text-align: right;
+}
+.lottery-section-h2 {
+  padding: 50px 0;
+}
+section h3 {
+  height: 50px;
+  color: gray;
+  font-size: 1.25rem;
+  padding: 0% 0;
+  text-align: right;
+}
+section p {
+  width: 500px;
+  padding: 15px;
+  font-size: 1rem;
+  line-height: 2;
+  color: rgb(193, 193, 193);
+}
+/* button */
+button {
+  background-color: white;
+  border: 1px solid black;
+  color: gray;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 15px 15px 0px 0px;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+.weblog-button {
+  margin: 15px 15px 10px 0px;
+}
+button:hover {
+  border: 1px solid black;
+  background-color: red;
+  color: white;
+}
+.lotary-button {
+  width: 150px;
+}
+/* end */
+/* card */
+.postBlog {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px 70px 50px;
+  background-color: #b0bec5;
+  background-image: linear-gradient(white, #b0bec5);
+  background-color: #b0bec5;
+  background: linear-gradient(white, #b0bec5);
+  background-color: white;
+  border-radius: 15px;
+  width: 350px;
+  height: auto;
+  transition: all 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.cards__header {
+  height: 380px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.cards__header--19 {
+  background-color: #b0bec5;
+  background-image: linear-gradient(white, #b0bec5);
+  background-color: #b0bec5;
+  background: linear-gradient(white, #b0bec5);
+}
+.cards__logo {
+  width: 100px;
+  height: auto;
+  padding: 10px 10px 0px 10px;
+}
+.logo-card {
+  background-color: #b0bec5;
+  background-image: linear-gradient(white, #b0bec5);
+  background-color: #b0bec5;
+  background: linear-gradient(white, #b0bec5);
+  border-radius: 20px;
+  text-align: center;
+}
+.cards__body {
+  position: relative;
+  padding: 40px 30px 20px;
+  margin-top: -10px;
+}
+.cards__image {
+  width: 100%;
+  height: 296px;
+  border-radius: 10px;
+  z-index: 1;
+  position: absolute;
+  top: -290px;
+  left: 40px;
+  width: 80%;
+  transition: all 0.3s ease;
+}
+.card:hover .cards__image {
+  transform: scale(1.1) rotate(5deg);
+  left: 120px;
+}
+.post-button {
+  display: block;
+  width: 50%;
+  margin: 0 auto 15px;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+.mahsol-1 {
+  display: flex;
+  justify-content: center;
+}
+.mahsol-2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.img-mahsol-1 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px 10px 10px;
+  gap: 20px;
+}
+.img-mahsol-1 {
+  height: 257px;
+}
+.img-mahsol-2 {
+  margin: 10px 10px 10px 10px;
+}
+.img-mahsol-2 {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+}
+.postBlog {
+  display: flex;
+  padding: 20px;
+}
+article {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 326px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+article:hover {
+  transform: scale(1.05);
+}
+article h3 {
+  height: 50px;
+  color: red;
+  font-size: 1xrem;
+  padding: 10px;
+  text-align: center;
+}
+article p {
+  width: 326px;
+  height: 150px;
+  padding: 15px;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: gray;
+  overflow: hidden;
+  line-height: 25px;
+}
+article img {
+  width: 100%;
+  height: 296px;
+  border-radius: 10px;
+}
+a {
+  color: #616161;
+}
+h4 {
+  color: gray;
+  font-size: 1rem;
+  padding: 30px;
+}

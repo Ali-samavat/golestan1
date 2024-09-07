@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  body {
+    font-family: IranSans;
+    color: white;
+    background-color: #f0f0f1;
+  }
+  @font-face {
+    font-family: IranSans;
+    src: url(./font/IRANSansWeb-Light.ttf);
+    src: url(./font/IRANSansWeb-Light.woff);
+    src: url(./font/IRANSansWeb-Light.woff2);
+  }
+  .postBlog{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: auto;
+    max-width: 1078px;
+  }
+  
+  article {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 10px;
+    width: 326px;
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+  
+  article:hover {
+    transform: scale(1.05);
+  }
+  
+  article h3 {
+    height: 50px;
+    color: red;
+    font-size: 1xrem;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  article p {
+    width: 326px;
+    height: 150px;
+    padding: 15px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: gray;
+    overflow: hidden;
+    line-height: 25px;
+  }
+  article img {
+    width: 100%;
+    height: 296px;
+    border-radius: 10px;
+  }
+  button {
+    background-color: white;
+    border: 1px solid black;
+    color: gray;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 15px 15px 0px 0px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  .weblog-button {
+    margin: 15px 15px 10px 0px;
+  }
+  button:hover {
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+  }
+  article button{
+    padding: 10px 10px;
+  }
+  button:hover {
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+  }
+  a {
+    color: #616161;
+  }
+  h4 {
+    color: gray;
+    font-size: 1rem;
+    padding: 30px;
+  }

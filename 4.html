@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stylized Form</title>
+    <link rel="stylesheet" href="./style/sing-in.css">
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Registration Form</h2>
+      <form>
+        <label for="inputone">First Name</label>
+        <input
+          type="text"
+          name="firstname"
+          id="inputone"
+          placeholder="First Name"
+          required
+        />
+
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" placeholder="Age" required />
+
+        <label for="country">Country</label>
+        <input
+          type="text"
+          name="country"
+          id="country"
+          placeholder="Country"
+          required
+        />
+
+        <label for="city">City</label>
+        <select name="city" id="city" required>
+          <option value="tehran">Tehran</option>
+          <option value="mashhad">Mashhad</option>
+          <option value="karaj">Karaj</option>
+        </select>
+
+        <label>Evidences</label>
+        <label for="bechelor-degree">
+          <input
+            type="radio"
+            name="evidence"
+            id="bechelor-degree"
+            value="bachelor degree"
+            required
+          />
+          Bachelor Degree
+        </label>
+        <label for="master-degree">
+          <input
+            type="radio"
+            name="evidence"
+            id="master-degree"
+            value="master degree"
+            required
+          />
+          Master Degree
+        </label>
+        <label for="doctorate">
+          <input
+            type="radio"
+            name="evidence"
+            id="doctorate"
+            value="doctorate"
+            required
+          />
+          Doctorate
+        </label>
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          cols="30"
+          rows="5"
+          placeholder="Message"
+          required
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
